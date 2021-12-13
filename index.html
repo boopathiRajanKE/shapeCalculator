@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calc-main-wrapper">
+      <div class="calc-main-block">
+        <div class="calc-top-block">
+          <h1 class="calc-title"></h1>
+          <p class="calc-desc"></p>
+        </div>
+        <div class="calc-middle-block">
+          <div class="calc-body page1">
+            <input
+              type="radio"
+              id="rectangle"
+              checked="true"
+              name="shape"
+              class="input-radio"
+              value="rectangle"
+            />
+            <label for="rectangle">rectangle</label><br />
+            <input
+              type="radio"
+              id="circle"
+              name="shape"
+              class="input-radio"
+              value="circle"
+            />
+            <label for="circle">circle</label><br />
+            <input
+              type="radio"
+              id="square"
+              name="shape"
+              class="input-radio"
+              value="square"
+            />
+            <label for="square">square</label><br />
+            <input
+              type="radio"
+              id="ellipse"
+              name="shape"
+              class="input-radio"
+              value="ellipse"
+            />
+            <label for="ellipse">ellipse</label>
+          </div>
+          <div class="calc-body page2">
+            <div class="calc-input-wrapper input-1">
+              <label for="calc-input-1" class="input-1-text">Width :</label>
+              <input
+                type="number"
+                required
+                id="calc-input-1"
+                class="calc-input"
+                name="calc-input-1"
+              /><br /><br />
+            </div>
+            <div class="calc-input-wrapper input-2">
+              <label for="calc-input-2" class="input-2-text">Length :</label>
+              <input
+                type="number"
+                required
+                id="calc-input-2"
+                class="calc-input"
+                name="calc-input-2"
+              /><br /><br />
+            </div>
+          </div>
+          <div class="calc-body page3">
+            <div class="calc-area">
+              The Area is <span class="calc-answer"></span>
+            </div>
+          </div>
+        </div>
+        <div class="calc-bottom-block">
+          <button class="calc-next-button">Go To Step 2</button>
+          <div class="calc-cancel-block">
+            <span>Or</span>
+            <button class="calc-cancel-button">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+.test {
+    color: red
+}
+
+.calc-bottom-block {
+    display: flex;
+    align-items: center;
+}
+.calc-cancel-block {
+    display: none;
+}
+.calc-main-wrapper {
+    max-width: 350px;
+    margin: 80px auto;
+}
+
+.calc-main-block {
+    padding: 15px;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+.calc-title {
+    margin: 0;
+    font-size: 22px;
+}
+
+.calc-middle-block {
+    margin-bottom: 25px;
+}
+
+.calc-next-button {
+    border-radius: 5px;
+    padding: 2px 8px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+input, label {
+    cursor: pointer;
+}
+
+button {
+    font-family: monospace;
+}
+
+.calc-cancel-block span {
+    margin-left: 10px;
+}
+.calc-cancel-button  {
+    border: none;
+    background: white;
+    padding: 0;
+}
+
+.calc-area {
+    margin: 45px 0px;
+    font-size: 17px;
+    text-align: center;
+}
+.page2 {
+    margin: 35px 0px;
+}
